@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience — Imad Khan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<nav id="mainNav">
+  <a href="index.html" class="logo">&lt;<span>imad.dev</span>/&gt;</a>
+  <ul id="navMenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="experience.html" class="active">Experience</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="certifications.html">Certs</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-switch" id="themeSwitch" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button>
+    <div class="hamburger" onclick="document.getElementById('navMenu').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<section id="experience">
+  <div class="section-tag">04 — Experience</div>
+  <h2 class="section-title">Work History</h2>
+  <p class="section-sub">My professional journey so far — freelance development and client-driven web solutions.</p>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="exp-period">2025 — Present</div>
+      <div class="exp-title">Front-end Developer (Freelance)</div>
+      <div class="exp-company">Remote — Freelance & Client Work</div>
+      <div class="exp-desc">Delivering responsive, pixel-perfect web applications for local clients. Managing full project lifecycle from design consultation to deployment, with focus on clean UI and fast performance.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="exp-period">2025</div>
+      <div class="exp-title">Web Development Trainee</div>
+      <div class="exp-company">DigiSkills — Online</div>
+      <div class="exp-desc">Completed structured training in freelance web development, e-commerce, and data analysis. Built and submitted hands-on projects as part of the certification curriculum.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="exp-period">2025</div>
+      <div class="exp-title">Front-end Development Student</div>
+      <div class="exp-company">CodeWithHarry — Online</div>
+      <div class="exp-desc">Studied modern front-end development patterns, practiced component-based UI building, and completed a final project certified by the course instructor.</div>
+    </div>
+  </div>
+</section>
+
+<script src="portfolio.js" defer></script>
+</body>
+</html>
