@@ -2,7 +2,7 @@
 
 Welcome to my personal developer portfolio! This repository contains the source code for my fully custom, multi-page digital showroom. It is built to display my engineering milestones, technical projects, freelance work, and academic background with a polished user experience.
 
-🔗 **Live Demo:** https://imad-khan-software.github.io/developer-portfolio/index.html
+🔗 **Live Demo:** https://imad-khan-software.github.io/developer-portfolio/
 
 ---
 
